@@ -1,0 +1,5 @@
+{
+    "db": "shirty_db",
+    "jwtPrivateKey": "shirty_jwtPrivateKey",
+    "stripePrivateKey": "shirty_stripePrivateKey"
+}

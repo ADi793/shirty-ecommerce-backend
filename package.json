@@ -1,0 +1,29 @@
+{
+  "name": "shirtybackend",
+  "version": "1.0.0",
+  "description": "t-shirt selling services.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adil Siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "formidable": "^1.2.2",
+    "joi": "^13.4.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.4",
+    "socket.io": "^4.2.0",
+    "stripe": "^8.174.0",
+    "underscore": "^1.13.1",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  }
+}
